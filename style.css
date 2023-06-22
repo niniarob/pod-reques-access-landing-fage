@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+
+*,*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo';
+}
+:root{
+   --txtColor:#54E6AF;
+   --white:#ffffff;
+   --black:#000000;
+   --prgColor:#C2CBE5;
+   --butColor:#2C344B;
+   --but-txt-color:#121725;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-image: url(./assets/mob-boy.svg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color:#2C344B;
+}
+.mob-boy{
+    width: 375px;
+    height: 700px;
+}
+header{
+    width: 327px;
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+}
+section{
+    width: 327px;
+    margin-top: 57px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title h3{
+    width: 327px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: var(--txtColor);
+    text-transform: uppercase;
+}
+.title h3 span{
+    color: var(--white);
+}
+.title p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--prgColor);
+    margin-top: 16px;
+}
+.column{
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 70px;
+}
+.webs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 51px;
+}
+input{
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    flex-shrink: 0;
+    background-color: var(--butColor);
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px; 
+    text-align: start;
+    padding-left: 31px;
+    color: var(--prgColor);
+}
+button{
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    flex-shrink: 0;
+    background-color: var(--butColor);
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px; 
+    color: var(--but-txt-color);
+    background-color: var(--txtColor);
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+}
+button:hover{
+    background-color: #B3FFE2;
+    transition: 1s;
+} 
+footer img{
+    display: none;
+}
+.tbt-boy{
+    display: none;
+}
+.desk-boy{
+    display: none;
+}

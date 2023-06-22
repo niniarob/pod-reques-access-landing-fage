@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px){
+    .container{
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-position: right top;
+        background-color: rgb(18, 23, 37);
+    }
+    .mob-boy{
+        display: none;
+    }
+    header{
+        background: rgb(18, 23, 37);
+        display: flex;
+        justify-content: start;
+        margin-top: 50px;
+        margin-left: 39px;
+    }
+    .title h3{
+        width: 635px;
+        text-align: start;
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .title p{
+        width: 445px;
+        text-align: start;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    section{
+        width: 635px;
+        background: #121725;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-left: 39px;
+        margin-top: 109px;
+    }
+    .column{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 70px;
+    }
+    .button-container{
+        display: flex;
+        flex-direction: row;
+    }
+    input{
+        width: 427px;
+        height: 56px;
+    }
+    button{
+        width: 162px;
+        height: 46px;
+        position: relative;
+        top: 5px;
+        left: -183px;
+    }
+    .webs{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 50px;
+        align-items: start;
+    }
+    footer img{
+        display: block;
+        margin-top: 80px;
+        padding-left: 30px;
+    }
+    .desk{
+        display: none;
+    }
+}
+@media screen and (min-width:1440px){
+    .container{
+        width: 100%;
+        background-image: none;
+    }
+    .tbt-boy{
+        display: none;
+    }
+    .desk-boy{
+        display: block;
+        position:absolute;
+        margin-top: 130px;
+        right: 0;
+    }
+    header{
+        margin-top: 102px;
+        margin-left: 170px;
+    }
+    section{
+        margin-left: 170px;
+        position: relative;
+        width: 763px;
+        margin-top: 147px;
+    }
+    .title h3{
+        width: 665px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+    footer {
+        margin-bottom: 70px;
+    }
+    footer img{
+        position: absolute;
+        bottom:-68px;
+        right: 0;
+    }
+}

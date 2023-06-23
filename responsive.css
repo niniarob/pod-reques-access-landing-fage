@@ -23,6 +23,7 @@
         text-align: start;
         font-size: 48px;
         line-height: 56px;
+        margin-top: 70px;
     }
     .title p{
         width: 445px;
@@ -38,7 +39,7 @@
         justify-content: start;
         align-items: start;
         margin-left: 39px;
-        margin-top: 109px;
+        margin-top: 52px;
     }
     .column{
         width: 100%;
@@ -69,10 +70,13 @@
         gap: 50px;
         align-items: start;
     }
-    footer img{
-        display: block;
-        margin-top: 80px;
+    footer{
+        width: 768px;
+        margin-top: 30px;
         padding-left: 30px;
+    }
+    footer img{
+         display: block;
     }
     .desk{
         display: none;
@@ -100,19 +104,22 @@
         margin-left: 170px;
         position: relative;
         width: 763px;
-        margin-top: 147px;
+        margin-top: 99px;
     }
     .title h3{
         width: 665px;
         font-size: 52px;
         line-height: 62px;
+        margin-top: 70px;
+    }
+     .column{
+        margin-bottom: 0px;
     }
     footer {
-        margin-bottom: 70px;
-    }
-    footer img{
-        position: absolute;
-        bottom:-68px;
-        right: 0;
-    }
+        width:100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        position: relative;
+        bottom:95px;
 }
